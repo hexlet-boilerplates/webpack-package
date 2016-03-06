@@ -1,0 +1,29 @@
+{
+  "name": "javascript-package",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register",
+    "gulp": "gulp",
+    "eslint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hexlet-boilerplates/javascript-package.git"
+  },
+  "author": "Kirill Mokevnin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hexlet-boilerplates/javascript-package/issues"
+  },
+  "homepage": "https://github.com/hexlet-boilerplates/javascript-package#readme",
+  "devDependencies": {
+    "babel-core": "*",
+    "babel-preset-es2015": "*",
+    "eslint": "*",
+    "eslint-config-airbnb": "*",
+    "mocha": "*",
+    "gulp": "*"
+  }
+}
