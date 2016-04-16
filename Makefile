@@ -5,6 +5,6 @@ test:
 	npm run test
 
 lint:
-	npm run eslint -- src tests
+	npm run eslint -- src test
 
 .PHONY: test

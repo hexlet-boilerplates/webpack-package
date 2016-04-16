@@ -1,7 +1,3 @@
- const javascriptPackage = {
-  half: function (num) {
-    return num / 2;
-  }
-}
+import half from './src/half';
 
-export default javascriptPackage;
+export default half;
