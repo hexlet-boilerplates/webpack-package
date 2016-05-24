@@ -2,11 +2,13 @@
   "name": "javascript-package",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "mocha --compilers js:babel-core/register",
     "gulp": "gulp",
-    "eslint": "eslint"
+    "eslint": "eslint",
+    "build": "babel index.js --out-dir dist",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -19,11 +21,13 @@
   },
   "homepage": "https://github.com/hexlet-boilerplates/javascript-package#readme",
   "devDependencies": {
+    "babel-cli": "^6.9.0",
     "babel-core": "*",
     "babel-preset-es2015": "*",
     "eslint": "*",
     "eslint-config-airbnb": "*",
-    "mocha": "*",
-    "gulp": "*"
+    "eslint-plugin-import": "^1.8.0",
+    "gulp": "*",
+    "mocha": "*"
   }
 }
