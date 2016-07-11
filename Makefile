@@ -2,6 +2,7 @@ install:
 	npm install
 
 build:
+	rm -rf dist
 	npm run build
 
 test:
@@ -9,5 +10,8 @@ test:
 
 lint:
 	npm run eslint -- src test
+
+publish:
+	npm publish
 
 .PHONY: test

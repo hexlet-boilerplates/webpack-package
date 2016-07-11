@@ -7,7 +7,7 @@
     "test": "mocha --compilers js:babel-core/register",
     "gulp": "gulp",
     "eslint": "eslint",
-    "build": "babel index.js --out-dir dist",
+    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
     "prepublish": "npm run build"
   },
   "repository": {
@@ -21,10 +21,16 @@
   },
   "homepage": "https://github.com/hexlet-boilerplates/javascript-package#readme",
   "devDependencies": {
-    "babel-cli": "^6.9.0",
+    "babel-cli": "*",
     "babel-core": "*",
     "babel-preset-es2015": "*",
+    "babel-preset-es2016": "*",
+    "babel-preset-es2017": "*",
+    "babel-preset-stage-0": "*",
     "eslint": "*",
+    "babel-eslint": "*",
+    "babel-plugin-syntax-flow": "*",
+    "babel-plugin-transform-flow-strip-types": "*",
     "eslint-config-airbnb": "*",
     "eslint-plugin-import": "^1.8.0",
     "gulp": "*",
