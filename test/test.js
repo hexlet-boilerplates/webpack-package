@@ -1,5 +1,8 @@
+// @flow
+
+import { it, describe } from 'mocha';
 import assert from 'assert';
-import half from '../index.js';
+import half from '../src/index.js';
 
 describe('JavascriptPackage', () => {
   describe('#num()', () => {
