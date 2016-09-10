@@ -26,7 +26,7 @@
     "mocha": "*",
     "babel-cli": "*",
     "babel-core": "*",
-    "babel-preset-es2017": "*",
+    "babel-preset-latest": "*",
     "babel-preset-stage-0": "*",
     "eslint": "*",
     "babel-eslint": "*",
