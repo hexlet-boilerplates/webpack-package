@@ -1,0 +1,19 @@
+plugins: [flowtype]
+
+env:
+  node: true
+  mocha: true
+
+parser: babel-eslint
+
+parserOptions:
+  ecmaVersion: 2017
+  sourceType: module
+
+extends:
+  - 'airbnb/base'
+  - plugin:import/errors
+  - plugin:import/warnings
+
+rules:
+  import/no-extraneous-dependencies: [error, { devDependencies: true }]
