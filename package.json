@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/hexlet-boilerplates/javascript-package#readme",
   "dependencies": {
+    "gulp": "*"
   },
   "devDependencies": {
     "mocha": "*",
