@@ -2,7 +2,7 @@
 
 import { it, describe } from 'mocha';
 import assert from 'assert';
-import half from '../src/index.js';
+import half from '../src/index';
 
 describe('JavascriptPackage', () => {
   describe('#half()', () => {
