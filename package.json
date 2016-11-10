@@ -4,7 +4,9 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "test": "mocha --compilers js:babel-core/register --colors",
+    "test": "jest",
+    "flow": "flow",
+    "flow-typed": "flow-typed",
     "gulp": "gulp",
     "eslint": "eslint",
     "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
@@ -24,17 +26,20 @@
     "gulp": "*"
   },
   "devDependencies": {
-    "mocha": "*",
     "babel-cli": "*",
     "babel-core": "*",
-    "babel-preset-latest": "*",
-    "babel-preset-stage-0": "*",
-    "eslint": "*",
     "babel-eslint": "*",
     "babel-plugin-syntax-flow": "*",
     "babel-plugin-transform-flow-strip-types": "*",
+    "babel-plugin-transform-runtime": "*",
+    "babel-preset-env": "*",
+    "babel-preset-stage-0": "*",
+    "eslint": "*",
     "eslint-config-airbnb": "*",
+    "eslint-plugin-flowtype": "*",
     "eslint-plugin-import": "^1.8.0",
-    "eslint-plugin-flowtype": "*"
+    "flow-bin": "^0.34",
+    "flow-typed": "*",
+    "jest": "*"
   }
 }

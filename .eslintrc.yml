@@ -2,7 +2,7 @@ plugins: [flowtype]
 
 env:
   node: true
-  mocha: true
+  jest: true
 
 parser: babel-eslint
 
@@ -15,5 +15,5 @@ extends:
   - plugin:import/errors
   - plugin:import/warnings
 
-rules:
-  import/no-extraneous-dependencies: [error, { devDependencies: true }]
+# rules:
+#   import/no-extraneous-dependencies: [error, { devDependencies: true }]
