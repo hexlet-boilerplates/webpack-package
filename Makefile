@@ -1,5 +1,8 @@
 install: install-deps install-flow-typed
 
+run:
+	npm run babel-node -- 'src/bin/hexlet.js' 10
+
 install-deps:
 	yarn
 
