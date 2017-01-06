@@ -40,7 +40,7 @@
     "babel-preset-env": "*",
     "babel-preset-stage-0": "*",
     "eslint": "*",
-    "eslint-config-airbnb": "*",
+    "eslint-config-airbnb-base": "*",
     "eslint-plugin-flowtype": "*",
     "eslint-plugin-import": "*",
     "flow-bin": "^0.37",

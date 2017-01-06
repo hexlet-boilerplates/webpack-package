@@ -1,6 +1,6 @@
 ---
 
-plugins: [flowtype]
+# plugins: [flowtype]
 
 env:
   node: true
@@ -13,6 +13,6 @@ parserOptions:
   sourceType: module
 
 extends:
-  - 'airbnb/base'
+  - 'airbnb-base'
   - plugin:import/errors
   - plugin:import/warnings
