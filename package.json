@@ -1,11 +1,7 @@
 {
-  "name": "javascript-package",
+  "name": "webpack-package",
   "version": "0.0.1",
   "description": "",
-  "main": "dist/index.js",
-  "bin": {
-    "hexlet": "dist/bin/hexlet.js"
-  },
   "scripts": {
     "test": "jest",
     "babel-node": "babel-node",
@@ -13,26 +9,26 @@
     "flow-typed": "flow-typed",
     "gulp": "gulp",
     "eslint": "eslint",
-    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
-    "prepublish": "npm run build"
+    "webpack": "webpack",
+    "start": "npm run webpack -- --config webpack.config.babel.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hexlet-boilerplates/javascript-package.git"
+    "url": "git+https://github.com/hexlet-boilerplates/webpack-package.git"
   },
   "author": "Kirill Mokevnin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hexlet-boilerplates/javascript-package/issues"
+    "url": "https://github.com/hexlet-boilerplates/webpack-package/issues"
   },
-  "homepage": "https://github.com/hexlet-boilerplates/javascript-package#readme",
+  "homepage": "https://github.com/hexlet-boilerplates/webpack-package#readme",
   "dependencies": {
     "gulp": "*"
   },
   "devDependencies": {
+    "webpack": "^v2.2.0-rc.3",
     "debug": "*",
-    "babel-cli": "*",
-    "babel-core": "*",
+    "babel-loader": "*",
     "babel-eslint": "*",
     "babel-plugin-syntax-flow": "*",
     "babel-plugin-transform-flow-strip-types": "*",

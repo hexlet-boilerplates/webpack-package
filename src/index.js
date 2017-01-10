@@ -1,5 +1,7 @@
 // @flow
 
-import half from './half';
-
-export default half;
+export class Example {
+  init() {
+    console.log('ehu!');
+  }
+}

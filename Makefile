@@ -1,7 +1,10 @@
 install: install-deps install-flow-typed
 
-run:
-	npm run babel-node -- 'src/bin/hexlet.js' 10
+start:
+	npm start
+
+develop:
+	NODE_ENV=development npm run webpack -- --watch --config config/webpack.development.babel.js
 
 install-deps:
 	yarn
