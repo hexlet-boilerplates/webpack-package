@@ -4,7 +4,7 @@ start:
 	npm start
 
 develop:
-	NODE_ENV=development npm run webpack -- --watch --config config/webpack.development.babel.js
+	npm run webpack -- --watch --env development
 
 install-deps:
 	yarn
@@ -14,7 +14,7 @@ install-flow-typed:
 
 build:
 	rm -rf dist
-	npm run build
+	npm run webpack -- -p --env production
 
 test:
 	npm test

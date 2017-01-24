@@ -10,7 +10,7 @@
     "gulp": "gulp",
     "eslint": "eslint",
     "webpack": "webpack",
-    "start": "npm run webpack -- --config webpack.config.babel.js"
+    "start": "webpack"
   },
   "repository": {
     "type": "git",
@@ -26,7 +26,8 @@
     "gulp": "*"
   },
   "devDependencies": {
-    "webpack": "^v2.2.0-rc.3",
+    "webpack": "v2.2.0",
+    "webpack-merge": "*",
     "debug": "*",
     "babel-loader": "*",
     "babel-eslint": "*",
@@ -39,7 +40,7 @@
     "eslint-config-airbnb-base": "*",
     "eslint-plugin-flowtype": "*",
     "eslint-plugin-import": "*",
-    "flow-bin": "^0.37",
+    "flow-bin": "^0.38",
     "flow-typed": "*",
     "jest": "*"
   }
