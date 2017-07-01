@@ -23,25 +23,22 @@
   },
   "homepage": "https://github.com/hexlet-boilerplates/webpack-package#readme",
   "dependencies": {
-    "gulp": "*"
+    "babel-loader": "*",
+    "webpack": "*",
+    "webpack-merge": "*",
+    "babel-plugin-syntax-dynamic-import": "*"
   },
   "devDependencies": {
-    "webpack": "v2.2.0",
-    "webpack-merge": "*",
-    "debug": "*",
-    "babel-loader": "*",
     "babel-eslint": "*",
-    "babel-plugin-syntax-flow": "*",
-    "babel-plugin-transform-flow-strip-types": "*",
-    "babel-plugin-transform-runtime": "*",
     "babel-preset-env": "*",
+    "babel-preset-flow": "*",
     "babel-preset-stage-0": "*",
+    "debug": "*",
     "eslint": "*",
-    "eslint-config-airbnb-base": "*",
+    "eslint-config-airbnb": "*",
     "eslint-plugin-flowtype": "*",
-    "eslint-plugin-import": "*",
-    "flow-bin": "^0.38",
+    "flow-bin": "^0.49.1",
     "flow-typed": "*",
-    "jest": "*"
+    "jest": "^20"
   }
 }
