@@ -7,7 +7,7 @@ develop:
 	npm run webpack -- --watch --env development
 
 install-deps:
-	yarn
+	npm install
 
 install-flow-typed:
 	npm run flow-typed install
@@ -23,7 +23,7 @@ check-types:
 	npm run flow
 
 lint:
-	npm run eslint -- src test
+	npm run eslint .
 
 publish:
 	npm publish
