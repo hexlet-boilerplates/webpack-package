@@ -1,7 +1,5 @@
-// @flow
+import Example from './Example';
 
-export class Example {
-  init() {
-    console.log('ehu!');
-  }
-}
+const element = document.getElementById('point');
+const obj = new Example(element);
+obj.init();

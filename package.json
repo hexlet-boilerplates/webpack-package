@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "",
   "scripts": {
+    "webpack-serve": "webpack-serve",
     "test": "jest",
     "babel-node": "babel-node",
     "flow": "flow",
@@ -22,15 +23,11 @@
     "url": "https://github.com/hexlet-boilerplates/webpack-package/issues"
   },
   "homepage": "https://github.com/hexlet-boilerplates/webpack-package#readme",
-  "dependencies": {
-    "babel-loader": "^7.1.4",
-    "babel-plugin-syntax-dynamic-import": "*",
-    "webpack": "^4.1.1",
-    "webpack-cli": "*",
-    "webpack-merge": "*"
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel-eslint": "*",
+    "babel-jest": "*",
+    "babel-loader": "^7.1.4",
     "babel-preset-env": "*",
     "babel-preset-flow": "*",
     "babel-preset-stage-0": "*",
@@ -38,9 +35,15 @@
     "eslint": "*",
     "eslint-config-airbnb": "*",
     "eslint-plugin-flowtype": "*",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
     "flow-bin": "^0.67",
     "flow-typed": "*",
+    "html-webpack-plugin": "*",
     "jest": "^22",
-    "jest-cli": "^22"
+    "jest-cli": "^22",
+    "webpack": "^4.1.1",
+    "webpack-cli": "*",
+    "webpack-serve": "^0.2.0"
   }
 }

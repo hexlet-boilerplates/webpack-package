@@ -1,7 +1,7 @@
 // @flow
 
-import { Example } from '../src';
+import '../src';
 
 test('halt', () => {
-  new Example();
+  // new Example();
 });

@@ -4,7 +4,7 @@ start:
 	npm start
 
 develop:
-	npm run webpack -- --watch --env development
+	NODE_ENV=development npm run webpack-serve
 
 install-deps:
 	npm install
