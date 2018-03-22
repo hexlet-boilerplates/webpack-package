@@ -13,3 +13,6 @@ parser: babel-eslint
 extends:
   - 'airbnb-base'
   - 'plugin:flowtype/recommended'
+
+rules:
+  no-console: 0

@@ -2,7 +2,6 @@
 
 export default class Example {
   init() {
-    console.log('ehu!');
+    console.log(this.constructor.name);
   }
 }
-
