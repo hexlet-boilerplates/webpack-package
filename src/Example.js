@@ -1,7 +1,13 @@
 // @flow
 
 export default class Example {
+  element: HTMLElement;
+
+  constructor(element: HTMLElement) {
+    this.element = element;
+  }
   init() {
-    console.log(this.constructor.name);
+    this.element.textContent = 'hello, world!';
+    console.log('ehu!');
   }
 }

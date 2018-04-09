@@ -1,10 +1,7 @@
 install: install-deps install-flow-typed
 
-start:
-	npm start
-
 develop:
-	NODE_ENV=development npm run webpack-serve
+	npm run webpack-serve
 
 install-deps:
 	npm install
@@ -14,7 +11,7 @@ install-flow-typed:
 
 build:
 	rm -rf dist
-	npm run webpack -- -p --env production
+	NODE_ENV=production npm run webpack
 
 test:
 	npm test
