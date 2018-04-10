@@ -1,5 +1,3 @@
-import Example from './Example';
+import init from './init';
 
-const element = document.getElementById('point');
-const obj = new Example(element);
-obj.init();
+init();
