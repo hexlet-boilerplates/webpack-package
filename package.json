@@ -35,7 +35,6 @@
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-flowtype": "^2.46.1",
     "eslint-plugin-import": "^2.10.0",
-    "eslint-plugin-jsx-a11y": "^6.0.2",
     "flow-bin": "^0.67",
     "flow-typed": "^2.4.0",
     "html-webpack-plugin": "^3.2.0",
