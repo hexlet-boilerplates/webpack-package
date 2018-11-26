@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "",
   "scripts": {
-    "webpack-serve": "webpack-serve",
+    "webpack-dev-server": "webpack-dev-server",
     "test": "jest",
     "babel-node": "babel-node",
     "flow": "flow",
