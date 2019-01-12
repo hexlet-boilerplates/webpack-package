@@ -17,10 +17,10 @@ test:
 	npm test
 
 check-types:
-	npx run flow
+	npx flow
 
 lint:
-	npx run eslint .
+	npx eslint .
 
 publish:
 	npm publish
