@@ -1,7 +1,7 @@
 install: install-deps install-flow-typed
 
 develop:
-	npm run webpack-dev-server
+	npx webpack-dev-server
 
 install-deps:
 	npm install
@@ -17,10 +17,10 @@ test:
 	npm test
 
 check-types:
-	npm run flow
+	npx flow
 
 lint:
-	npm run eslint .
+	npx eslint .
 
 publish:
 	npm publish
