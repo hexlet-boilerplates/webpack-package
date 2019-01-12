@@ -22,6 +22,10 @@
     "url": "https://github.com/hexlet-boilerplates/webpack-package/issues"
   },
   "homepage": "https://github.com/hexlet-boilerplates/webpack-package#readme",
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/"
+  },
   "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.1.6",
