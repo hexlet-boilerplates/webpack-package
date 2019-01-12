@@ -1,7 +1,7 @@
 install: install-deps install-flow-typed
 
 develop:
-	npx webpack-dev-server --open
+	npx webpack-dev-server
 
 install-deps:
 	npm install
