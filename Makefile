@@ -6,18 +6,12 @@ develop:
 install-deps:
 	npm install
 
-install-flow-typed:
-	npm run flow-typed install
-
 build:
 	rm -rf dist
-	NODE_ENV=production npm run webpack
+	NODE_ENV=production npx webpack
 
 test:
 	npm test
-
-check-types:
-	npx flow
 
 lint:
 	npx eslint .

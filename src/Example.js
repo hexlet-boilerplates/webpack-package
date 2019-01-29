@@ -1,9 +1,5 @@
-// @flow
-
 export default class Example {
-  element: HTMLElement;
-
-  constructor(element: HTMLElement) {
+  constructor(element) {
     this.element = element;
   }
   init() {
