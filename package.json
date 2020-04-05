@@ -1,9 +1,9 @@
 {
   "name": "webpack-package",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "",
   "scripts": {
-    "test": "jest"
+    "test": "jest --colors"
   },
   "repository": {
     "type": "git",

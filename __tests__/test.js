@@ -12,4 +12,5 @@ beforeEach(async () => {
 
 test('init', () => {
   init();
+  expect(true).toBeDefined();
 });
