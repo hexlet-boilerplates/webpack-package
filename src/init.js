@@ -1,4 +1,5 @@
-import '@babel/polyfill';
+// @ts-check
+
 import Example from './Example';
 
 export default () => {
