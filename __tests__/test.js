@@ -1,3 +1,5 @@
+// @ts-check
+
 import { promises as fs } from 'fs';
 import path from 'path';
 import init from '../src/init';
@@ -10,4 +12,5 @@ beforeEach(async () => {
 
 test('init', () => {
   init();
+  expect(true).toBeDefined();
 });
