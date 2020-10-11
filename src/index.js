@@ -1,5 +1,5 @@
 // @ts-check
 
-import init from './init';
+import init from './init.js';
 
 init();

@@ -1,6 +1,6 @@
 // @ts-check
 
-import Example from './Example';
+import Example from './Example.js';
 
 export default () => {
   const element = document.getElementById('point');
