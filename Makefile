@@ -2,7 +2,7 @@ develop:
 	npx webpack serve
 
 install:
-	npm install
+	npm ci
 
 build:
 	rm -rf dist
