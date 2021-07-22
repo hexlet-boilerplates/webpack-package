@@ -1,5 +1,4 @@
 ---
-
 root: true
 
 plugins:
@@ -11,11 +10,11 @@ env:
   jest: true
   browser: true
 
-parser: babel-eslint
+parser: "@babel/eslint-parser"
 
 extends:
-  - 'airbnb-base'
-  - 'plugin:jest/recommended'
+  - "airbnb-base"
+  - "plugin:jest/recommended"
 
 rules:
   no-console: 0
