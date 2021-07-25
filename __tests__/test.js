@@ -10,9 +10,11 @@ beforeEach(async () => {
   const pathToHtml = path.resolve(__dirname, '__fixtures__/index.html');
   const html = await fs.readFile(pathToHtml, 'utf8');
   document.body.innerHTML = html;
+  init();
 });
 
 test('init', () => {
-  init();
-  expect(true).toBeDefined();
+  const element = document.getElementById('point');
+
+  expect(element.textContent).toEqual('hello, world!');
 });
