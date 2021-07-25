@@ -2,6 +2,7 @@
   "name": "webpack-package",
   "version": "0.1.0",
   "description": "",
+  "private": true,
   "scripts": {
     "test": "jest --colors"
   },
