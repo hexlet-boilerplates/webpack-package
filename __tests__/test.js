@@ -1,6 +1,8 @@
 // @ts-check
 
-
+/**
+ * @jest-environment jsdom
+ */
 
 import { promises as fs } from 'fs';
 import path from 'path';
