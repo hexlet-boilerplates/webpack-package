@@ -17,7 +17,8 @@
   "homepage": "https://github.com/hexlet-boilerplates/webpack-package#readme",
   "jest": {
     "verbose": true,
-    "testURL": "http://localhost/"
+    "testURL": "http://localhost/",
+    "testEnvironment": "jsdom"
   },
   "main": "src/init.js",
   "devDependencies": {
