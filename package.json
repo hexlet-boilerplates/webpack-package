@@ -47,7 +47,7 @@
     "webpack-dev-server": "^4.11.1"
   },
   "dependencies": {
-    "npm-check-updates": "^11.8.5",
+    "npm-check-updates": "^16.3.18",
     "sass": "^1.39.0",
     "sass-loader": "^12.1.0"
   }
