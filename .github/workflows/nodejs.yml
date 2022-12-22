@@ -15,17 +15,17 @@ jobs:
     strategy:
       # Node versions list
       matrix:
-        node-version: [13.x]
+        node-version: [18.x]
 
     steps:
       # Check-out repository under GitHub workspace
       # https://github.com/actions/checkout
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         # Step's name
       - name: Use Node.js ${{ matrix.node-version }}
         # Configures the node version used on GitHub-hosted runners
         # https://github.com/actions/setup-node
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         # The Node.js version to configure
         with:
           node-version: ${{ matrix.node-version }}
