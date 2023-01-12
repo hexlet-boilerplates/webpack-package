@@ -34,4 +34,7 @@ export default {
       template: 'template.html',
     }),
   ],
+  output: {
+    clean: true,
+  },
 };
