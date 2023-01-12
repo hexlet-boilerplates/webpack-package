@@ -5,8 +5,7 @@ install:
 	npm ci
 
 build:
-	rm -rf dist
-	NODE_ENV=production NODE_OPTIONS=--openssl-legacy-provider npx webpack
+	NODE_ENV=production npx webpack
 
 test:
 	npm test
