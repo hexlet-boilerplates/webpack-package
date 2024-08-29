@@ -33,7 +33,7 @@
     "babel-loader": "^9.1.2",
     "css-loader": "^6.7.3",
     "debug": "^4.3.4",
-    "eslint": "^8.31.0",
+    "eslint": "^8.57.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-babel": "^5.3.1",
     "eslint-plugin-import": "^2.27.4",
