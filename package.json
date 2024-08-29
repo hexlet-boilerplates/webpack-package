@@ -25,6 +25,11 @@
   },
   "main": "src/init.js",
   "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/eslint-parser": "^7.19.1",
+    "@babel/preset-env": "^7.20.2",
+    "babel-jest": "^29.3.1",
+    "babel-loader": "^9.1.2",
     "css-loader": "^6.7.3",
     "debug": "^4.3.4",
     "eslint": "^8.31.0",
